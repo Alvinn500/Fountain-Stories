@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Stayling Home Page */
+
+/* <!-- style Navbar --> */
+
+.navbar-brand {
+    color: #064273 !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+.nav-link {
+    color: #064273 !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* <!-- style Hero --> */
+
+.header {
+    background-color: rgba(228, 245, 255, 1);
+    padding-bottom: 80px;
+}
+
+.header-hero-text {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.hero-title {
+    color: rgba(101, 229, 255, 1);
+    font-weight: 700;
+    font-size: 62px;
+    display: block;
+}
+
+.hero-title-sub {
+    color: rgba(6, 66, 115, 1);
+}
+
+.hero-deskripsi {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.hero-image {
+    width: 45vw;
+}
+
+header .btn {
+    position: absolute;
+    border-radius: 20px;
+    border: 0;
+}
+
+header .btn-primary {
+    background-color: rgba(38, 218, 255, 1);
+    font-weight: 600;
+}
+
+header .btn-primary:hover {
+    color: white;
+    background-color: rgba(38, 218, 255, 1);
+    box-shadow: 4px 5px 10px rgb(50, 215, 248);
+}
+
+header .btn-primary:visited {
+    background-color: rgba(38, 218, 255, 1);
+}
+
+/* header .hero-img-tambahan-1 {
+    width: 3.5rem;
+    position: relative;
+    top: -21.8rem;
+    left: 3.5rem;
+    z-index: 3;
+}
+
+header .hero-img-tambahan-2 {
+    width: 5rem;
+    position: relative;
+    top: -18.8rem;
+    left: 8rem;
+    z-index: 3;
+}
+
+header .hero-img-tambahan-3 {
+    width: 8rem;
+    position: relative;
+    top: -12rem;
+    left: -6rem;
+    z-index: 3;
+} */
+
+/* <!-- Style Home About Us --> */
+
+section .home-about-us {
+    background-color: rgba(6, 66, 115, 1);
+    padding: 35px 0;
+
+}
+
+section .home-about-us .image {
+    width: 30vw;
+}
+
+section .home-about-us .title {
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+section .home-about-us .deskripsi {
+    color: white;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 0.5rem;
+}
+
+section .home-about-us .btn {
+    border-radius: 20px;
+}
+
+section .home-about-us .btn-info {
+    color: rgba(6, 66, 115, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 0;
+    font-weight: 600;
+}
+
+section .home-about-us .btn-info:hover {
+    color: rgba(6, 66, 115, 1);
+    box-shadow: none;
+    font-weight: 600;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 1);
+}
+
+
+/* <!-- Style Home The Fountain Stories --> */
+
+section .home-the-fountain-stories {
+    background-color: rgba(228, 245, 255, 1);
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+section .home-the-fountain-stories .title {
+    color: rgba(6, 66, 115, 1);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+section .home-the-fountain-stories .deskripsi {
+    color: rgba(81, 81, 81, 1);
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+section .home-the-fountain-stories .card {
+    padding: 10px 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(168, 168, 168);
+    border-radius: 15px;
+    border: 0;
+}
+
+section .home-the-fountain-stories .card-vidio-top {
+    border-radius: 18px;
+}
+
+section .home-the-fountain-stories .card-body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+section .home-the-fountain-stories .card-title {
+    color: #064273;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+/* <!-- Style Our Values Culture And Water --> */
+
+section .our-values-culture-and-water {
+    background-color: rgba(6, 66, 115, 1);
+    padding: 35px 0;
+}
+
+section .our-values-culture-and-water .title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section .our-values-culture-and-water .deskripsi {
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+section .our-values-culture-and-water .image {
+    width: 25vw;
+}
+
+section .our-values-culture-and-water .btn {
+    border-radius: 20px;
+}
+
+section .our-values-culture-and-water .btn-info {
+    color: rgba(6, 66, 115, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 0;
+    font-weight: 600;
+}
+
+section .our-values-culture-and-water .btn-info:hover {
+    color: rgba(6, 66, 115, 1);
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+
+
+/* <!-- Content Our Programs --> */
+
+section .our-programs {
+    padding: 50px;
+}
+
+section .our-programs .title {
+    color: #064273;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section .our-programs .deskripsi {
+    color: #6F6F6F;
+    font-weight: 400;
+}
+
+section .our-programs .card {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02),
+        0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04),
+        0 28px 28px rgba(0, 0, 0, 0.05), 0 38px 38px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    min-width: 10rem;
+    max-width: 25rem;
+}
+
+section .our-programs .img-thumbnail {
+    border: 0;
+}
+
+section .our-programs .img-toodler {
+    width: 9.5rem;
+    margin: 1vh 0;
+}
+
+section .our-programs .img-preschool {
+    width: 11rem;
+    margin: 1.1vh;
+}
+
+section .our-programs .img-kindegarten {
+    width: 9.7rem;
+    margin: 1.1rem;
+
+}
+
+section .our-programs .card-title {
+    color: #064273;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+section .our-programs .card-text {
+    color: #5A5A5A;
+    font-weight: 400;
+    font-size: 13.5px;
+}
+
+section .our-programs .btn {
+    border-radius: 20px;
+    background: #064273;
+}
+
+section .our-programs .btn-primary {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .our-programs .btn-primary:hover {
+    box-shadow: 4px 4px 10px #064273;
+}
+
+
+/* <!-- Content Our Researcher --> */
+
+section .our-researcher {
+    background-color: #E4F5FF;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+section .our-researcher .title {
+    color: #064273;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section .our-researcher .deskripsi {
+    color: #57464C;
+    font-size: 400;
+}
+
+section .our-researcher .card {
+    background-color: #76D4E8;
+    border-radius: 20px;
+    margin: 1rem;
+    width: 13rem;
+
+}
+
+section .our-researcher .title-card {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+section .our-researcher .text-card {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 0;
+}
+
+
+
+/* Style Testimonial */
+
+section .testimonials {
+    padding: 70px 0;
+}
+
+section .testimonials .title {
+    color: #064273;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section .testimonials .deskripsi {
+    color: #6F6F6F;
+    font-weight: 400;
+}
+
+section .testimonials .card {
+    border: 0;
+}
+
+section .testimonials .img-fluid {
+    width: 3.5rem;
+}
+
+section .testimonials .card-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1px;
+}
+
+section .testimonials .card-text {
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* style Footer */
+
+footer {
+    background-color: rgba(6, 66, 115, 1);
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+footer .title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+footer .text {
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 400;
+    line-height: 29px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul li .list-title {
+    color: #FFFFFF;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+footer ul li .list-text {
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Media Queery */
+
+@media only screen and (min-width: 1440px) {
+    section .our-programs .card {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+    .hero-image {
+        display: none;
+    }
+
+    header .row {
+        display: block;
+    }
+
+    section .our-values-culture-and-water {
+        background-color: rgba(6, 66, 115, 1);
+        padding: 25px 0;
+        padding-bottom: 50px;
+    }
+
+    section .home-about-us {
+        background-color: rgba(6, 66, 115, 1);
+        padding: 30px 0;
+        padding-bottom: 50px;
+    }
+
+    section .home-about-us .image {
+        width: 35vw;
+    }
+
+    section .home-about-us .title {
+        text-align: center;
+    }
+
+    section .home-about-us .deskripsi {
+        text-align: center;
+    }
+
+
+    section .our-programs .row {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section .home-about-us .btn {
+        margin-left: 7rem;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section .home-about-us .btn {
+        margin-left: 12rem;
+    }
+
+    section .our-values-culture-and-water .image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:521px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section .home-about-us .btn {
+        margin-left: 9rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:428px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:401px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section .home-about-us .btn {
+        margin-left: 6.9rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:346px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        color: #064273 !important;
+        font-weight: 600;
+        font-size: 1.3rem;
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:320px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section .home-about-us .btn {
+        margin-left: 5.5rem;
+    }
+}
+
+/* Stayling page product gallery and contact */
+
+main .product .hero-title,
+main .gallery .hero-title,
+main .contact .hero-title {
+    color: #064273;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+main .product .hero-text,
+main .gallery .hero-text,
+main .contact .hero-text {
+    color: #6F6F6F;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Styling page Product and gallery */
+
+
+
+main .product .card,
+main .gallery .card {
+    max-width: 25rem;
+    min-width: 10rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02),
+        0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04),
+        0 28px 28px rgba(0, 0, 0, 0.05), 0 38px 38px rgba(0, 0, 0, 0.06);
+}
+
+main .product .card-img-top,
+main .gallery .card-img-top {
+    width: 335px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0.5rem 0;
+    transition: all 1s;
+}
+
+main .product .card-img-top:hover,
+main .gallery .card-img-top:hover {
+    transform: scale(1.1);
+}
+
+/* styling page product */
+
+
+main .product .card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+main .product .card-text {
+    font-weight: 400;
+
+}
+
+/* Styling Page Contact */
+
+main .contact .card {
+    max-width: 27rem;
+    min-height: 15rem;
+    height: 18rem;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02),
+        0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04),
+        0 28px 28px rgba(0, 0, 0, 0.05), 0 38px 38px rgba(0, 0, 0, 0.06);
+}
+
+main .contact .material-symbols-outlined {
+    color: #064273;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+main .contact .card-title {
+    color: #064273;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
