@@ -9,7 +9,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-y: auto;
-    overflow-x: hidden;
 }
 
 /* Stayling Home Page */
@@ -35,6 +34,7 @@ body {
 .header {
     background-color: rgba(228, 245, 255, 1);
     padding-bottom: 80px;
+    overflow-x: hidden;
 }
 
 .header-hero-text {
@@ -115,7 +115,7 @@ header .hero-img-tambahan-3 {
 section .home-about-us {
     background-color: rgba(6, 66, 115, 1);
     padding: 35px 0;
-
+    overflow-x: hidden;
 }
 
 section .home-about-us .image {
@@ -160,6 +160,7 @@ section .home-the-fountain-stories {
     background-color: rgba(228, 245, 255, 1);
     padding-top: 40px;
     padding-bottom: 35px;
+    overflow-x: hidden;
 }
 
 section .home-the-fountain-stories .title {
@@ -203,6 +204,7 @@ section .home-the-fountain-stories .card-title {
 section .our-values-culture-and-water {
     background-color: rgba(6, 66, 115, 1);
     padding: 35px 0;
+    overflow-x: hidden;
 }
 
 section .our-values-culture-and-water .title {
@@ -243,6 +245,7 @@ section .our-values-culture-and-water .btn-info:hover {
 
 section .our-programs {
     padding: 50px;
+    overflow-x: hidden;
 }
 
 section .our-programs .title {
@@ -318,6 +321,7 @@ section .our-researcher {
     background-color: #E4F5FF;
     padding-top: 40px;
     padding-bottom: 50px;
+    overflow-x: hidden;
 }
 
 section .our-researcher .title {
@@ -357,6 +361,7 @@ section .our-researcher .text-card {
 
 section .testimonials {
     padding: 70px 0;
+    overflow-x: hidden;
 }
 
 section .testimonials .title {
@@ -375,7 +380,7 @@ section .testimonials .card {
 }
 
 section .testimonials .img-fluid {
-    width: 3.5rem;
+    width: 3.3rem;
 }
 
 section .testimonials .card-title {
@@ -441,6 +446,12 @@ footer ul li .list-text {
     }
 }
 
+@media only screen and (min-width: 0px) and (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 991px) {
     .hero-image {
         display: none;
@@ -481,11 +492,6 @@ footer ul li .list-text {
 
 }
 
-@media only screen and (min-width: 0px) and (max-width:1024px) {
-    body {
-        overflow-x: hidden;
-    }
-}
 
 @media only screen and (min-width: 767px) and (max-width:768px) {
     body {
@@ -510,6 +516,15 @@ footer ul li .list-text {
     section .our-values-culture-and-water .image {
         display: none;
     }
+
+    section .our-values-culture-and-water .title,
+    section .our-values-culture-and-water .deskripsi {
+        text-align: center;
+    }
+
+    section .our-values-culture-and-water .btn {
+        margin-left: 27vw;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width:521px) {
@@ -522,9 +537,23 @@ footer ul li .list-text {
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width:428px) {
+@media only screen and (min-width: 0px) and (max-width:425px) {
     body {
         overflow-x: hidden;
+    }
+
+    section .our-values-culture-and-water .btn {
+        margin-left: 35vw;
+    }
+
+    section .testimonials .img-fluid {
+        margin-left: 39vw;
+        margin-bottom: 0.5rem;
+    }
+
+    section .testimonials .card-title,
+    section .testimonials .card-text {
+        text-align: center;
     }
 }
 
@@ -535,6 +564,12 @@ footer ul li .list-text {
 
     section .home-about-us .btn {
         margin-left: 6.9rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:375px) {
+    section .our-values-culture-and-water .btn {
+        margin-left: 32.5vw;
     }
 }
 
@@ -558,6 +593,14 @@ footer ul li .list-text {
 
     section .home-about-us .btn {
         margin-left: 5.5rem;
+    }
+
+    section .our-values-culture-and-water .btn {
+        margin-left: 30vw;
+    }
+
+    section .testimonials .img-fluid {
+        margin-left: 36vw;
     }
 }
 
