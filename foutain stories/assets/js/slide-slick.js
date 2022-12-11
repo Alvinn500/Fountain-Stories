@@ -22,7 +22,7 @@ $('.card-slick').slick({
         }
         },
         {
-        breakpoint: 450,
+        breakpoint: 465,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
